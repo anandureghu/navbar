@@ -72,13 +72,18 @@ font-size: 250%;
 
 @media screen and (max-width:928px){
 
+    body{
+        font-size: 13px;
+    }
+
     .nav-items ul{
         display: grid;
         grid-template-columns: auto;
         position: absolute;
         left: 0;
-        bottom: 100%;
-        opacity: 0;
+        top: -500;
+        /* bottom: 100%; */
+        /* opacity: 0; */
         justify-items: center;
         align-items: center;
         width: 100vw;
@@ -101,8 +106,7 @@ font-size: 250%;
     }
 
     .nav-item-btn{
-        border-top: 2px solid crimson;
-        border-bottom: 5px solid crimson;
+        border: 2px solid crimson;
     }
 
     .nav-items.active ul{
